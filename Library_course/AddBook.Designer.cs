@@ -34,7 +34,7 @@
             this.tb_id = new System.Windows.Forms.TextBox();
             this.tb_Publishyear = new System.Windows.Forms.TextBox();
             this.Publishyear = new System.Windows.Forms.Label();
-            this.tb_Publisher = new System.Windows.Forms.TextBox();
+            this.tb_publisher = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tb_Pages = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -102,13 +102,13 @@
             this.Publishyear.Text = "Publish year";
             this.Publishyear.Click += new System.EventHandler(this.Publishyear_Click);
             // 
-            // tb_Publisher
+            // tb_publisher
             // 
-            this.tb_Publisher.Location = new System.Drawing.Point(50, 252);
-            this.tb_Publisher.Name = "tb_Publisher";
-            this.tb_Publisher.Size = new System.Drawing.Size(228, 23);
-            this.tb_Publisher.TabIndex = 9;
-            this.tb_Publisher.TextChanged += new System.EventHandler(this.tb_Publisher_TextChanged);
+            this.tb_publisher.Location = new System.Drawing.Point(50, 252);
+            this.tb_publisher.Name = "tb_publisher";
+            this.tb_publisher.Size = new System.Drawing.Size(228, 23);
+            this.tb_publisher.TabIndex = 9;
+            this.tb_publisher.TextChanged += new System.EventHandler(this.tb_publisher_TextChanged);
             // 
             // label3
             // 
@@ -203,7 +203,7 @@
             this.Controls.Add(this.author);
             this.Controls.Add(this.tb_genre);
             this.Controls.Add(this.genre);
-            this.Controls.Add(this.tb_Publisher);
+            this.Controls.Add(this.tb_publisher);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tb_Pages);
             this.Controls.Add(this.label4);
@@ -233,7 +233,7 @@
         private Label label7;
         public TextBox tb_id;
         public TextBox tb_Publishyear;
-        public TextBox tb_Publisher;
+        public TextBox tb_publisher;
         public TextBox tb_Pages;
         public TextBox tb_author;
         public TextBox tb_genre;

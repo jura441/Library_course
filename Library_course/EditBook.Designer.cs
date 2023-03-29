@@ -34,7 +34,7 @@
             this.author = new System.Windows.Forms.Label();
             this.tb_genre = new System.Windows.Forms.TextBox();
             this.genre = new System.Windows.Forms.Label();
-            this.tb_Publisher = new System.Windows.Forms.TextBox();
+            this.tb_publisher = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tb_Pages = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -52,6 +52,7 @@
             this.tb_name.Name = "tb_name";
             this.tb_name.Size = new System.Drawing.Size(228, 23);
             this.tb_name.TabIndex = 31;
+            this.tb_name.TextChanged += new System.EventHandler(this.tb_name_TextChanged);
             // 
             // label7
             // 
@@ -68,6 +69,7 @@
             this.tb_author.Name = "tb_author";
             this.tb_author.Size = new System.Drawing.Size(228, 23);
             this.tb_author.TabIndex = 29;
+            this.tb_author.TextChanged += new System.EventHandler(this.tb_author_TextChanged);
             // 
             // author
             // 
@@ -84,6 +86,7 @@
             this.tb_genre.Name = "tb_genre";
             this.tb_genre.Size = new System.Drawing.Size(228, 23);
             this.tb_genre.TabIndex = 27;
+            this.tb_genre.TextChanged += new System.EventHandler(this.tb_genre_TextChanged);
             // 
             // genre
             // 
@@ -94,12 +97,13 @@
             this.genre.TabIndex = 26;
             this.genre.Text = "genre";
             // 
-            // tb_Publisher
+            // tb_publisher
             // 
-            this.tb_Publisher.Location = new System.Drawing.Point(32, 246);
-            this.tb_Publisher.Name = "tb_Publisher";
-            this.tb_Publisher.Size = new System.Drawing.Size(228, 23);
-            this.tb_Publisher.TabIndex = 25;
+            this.tb_publisher.Location = new System.Drawing.Point(32, 246);
+            this.tb_publisher.Name = "tb_publisher";
+            this.tb_publisher.Size = new System.Drawing.Size(228, 23);
+            this.tb_publisher.TabIndex = 25;
+            this.tb_publisher.TextChanged += new System.EventHandler(this.tb_publisher_TextChanged);
             // 
             // label3
             // 
@@ -192,7 +196,7 @@
             this.Controls.Add(this.author);
             this.Controls.Add(this.tb_genre);
             this.Controls.Add(this.genre);
-            this.Controls.Add(this.tb_Publisher);
+            this.Controls.Add(this.tb_publisher);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tb_Pages);
             this.Controls.Add(this.label4);
@@ -223,7 +227,7 @@
         public TextBox tb_name;
         public TextBox tb_author;
         public TextBox tb_genre;
-        public TextBox tb_Publisher;
+        public TextBox tb_publisher;
         public TextBox tb_Pages;
         public TextBox tb_Publishyear;
         public TextBox tb_id;

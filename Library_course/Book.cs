@@ -26,7 +26,10 @@ namespace Library_course
             Pages = pages;
             PublishYear = publishYear;
         }
-        
+        public Book()
+        {
+
+        }
 
     }
 }
